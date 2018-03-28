@@ -1,0 +1,50 @@
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-image: url("../img/wallpaper.png");
+}
+.wrap,.sun,.moon{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  margin: auto;
+}
+.sun_moon {
+  width: calc(100vw - 116px);
+  height: calc(100vw - 116px);
+  display: flex;
+  transform: rotate(0deg);
+  padding: 50px;
+  display: flex;
+  position: fixed;
+  bottom: calc(-50vw + 70px);
+  z-index: -1;
+  transition: .5s;
+  background: linear-gradient(to left, #f1f1f1 ,skyblue , black);
+  border-radius: 1000px;
+  border : 8px solid black;
+}
+
+
+.sun {
+  background-image: url("../img/sun.png");
+  width: 100px;
+  height: 100px;
+}
+
+.moon {
+  background-image: url("../img/moon.png");
+   filter:invert(100%);
+  width: 100px;
+  height: 100px;
+}
+
+.back_gray {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,39 @@
+#date{
+  display: flex;
+}
+#date p{
+  margin : 0;
+  flex :1 ;
+  text-align: center;
+}
+
+#clock{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-size: 45px;
+  transition: .4s;
+  margin: auto;
+  width: 95%;
+}
+#clock>p{
+  margin: 0;
+  flex : 1;
+}
+.null{
+  width: 10px;
+}
+#time {
+  margin: 20vh auto;
+}
+.null {
+  flex: 1;
+}
+body {
+  margin: 0;
+}
+p{
+  color: white;
+  font-size: 120px;
+  font-family: "Open 24 Display St";
+}
